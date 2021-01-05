@@ -1,0 +1,22 @@
+.box{
+  width: 1200px;
+  background-color: #fff;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.site-layout{
+  display: flex;
+  justify-content: space-evenly;
+}
+.productlist{
+  width: 1350px;
+  /* height: 1200px; */
+  margin: 0 auto;
+}
+.box :global(.ant-menu){
+  margin-left: 100px;
+}
+.cart:hover{
+  box-shadow: red;
+}
